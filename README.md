@@ -14,4 +14,4 @@ https://github.com/mzrodyu/maomaomz-release
 
 在 SillyTavern 的扩展管理中点击更新即可。
 
-当前版本：2.0.218
+当前版本：2.0.220
