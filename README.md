@@ -51,7 +51,7 @@ A third-party [SillyTavern](https://github.com/SillyTavern/SillyTavern) extensio
 **通过扩展安装器（推荐）** — 打开 SillyTavern → `Extensions` → `Install extension`，填入仓库地址：
 
 ```
-https://github.com/mzrodyu/maomaomz-release
+https://github.com/iulove1314520/maomaomz-release
 ```
 
 安装后刷新页面，面板会自动出现（可在偏好设置中关闭自动弹出）。
