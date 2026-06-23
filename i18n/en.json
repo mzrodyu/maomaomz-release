@@ -16,12 +16,10 @@
   "error": "Error",
   "warning": "Warning",
   "info": "Info",
-
   "language": "Language",
   "language_zh": "中文",
   "language_en": "English",
   "language_switch_hint": "Switch interface language",
-
   "tab_summary": "Summary",
   "tab_tools": "Tools",
   "tab_settings": "Settings",
@@ -35,16 +33,17 @@
   "tab_tools_template": "Tools",
   "tab_token_stats": "Token Stats",
   "tab_help": "Help",
-
   "panel_title": "Maomaomz Tools",
   "panel_warning": "",
-
   "pref_title": "Preferences",
   "pref_subtitle": "Customize your experience",
   "pref_interface": "Interface Settings",
   "pref_language_title": "Language / 语言",
   "pref_language_desc": "Switch between Chinese and English interface",
-
+  "pref_color_scheme": "Color Scheme",
+  "pref_color_scheme_desc": "Switch between dark and light interface",
+  "pref_color_scheme_dark": "Dark",
+  "pref_color_scheme_light": "Light",
   "pref_auto_show_panel": "Auto-show panel on refresh",
   "pref_auto_show_panel_desc": "Automatically show the panel after page refresh",
   "pref_show_task_manager": "Show Task Manager",
@@ -53,30 +52,25 @@
   "pref_show_minimize_icon_desc": "Display the cat icon shortcut in the top right corner",
   "pref_sections_expanded": "Expand sections by default",
   "pref_sections_expanded_desc": "Whether settings sections are expanded or collapsed by default",
-
   "pref_theme_color": "Theme Color",
   "pref_gradient_mode": "Gradient Mode",
   "pref_gradient_color2": "Secondary Color",
   "pref_gradient_angle": "Gradient Angle",
   "pref_custom_color": "Custom Color",
-
   "pref_background_image": "Background Image",
   "pref_upload_image": "Upload Image",
   "pref_clear_background": "Clear Background",
   "pref_opacity": "Opacity",
-
   "pref_notifications": "Notification Settings",
   "pref_show_success_toast": "Show Success Notifications",
   "pref_show_success_toast_desc": "Display toast messages on successful operations",
   "pref_show_error_toast": "Show Error Notifications",
   "pref_show_error_toast_desc": "Display error messages when operations fail",
-
   "pref_tutorials": "Tutorial Settings",
   "pref_reset_tutorials": "Reset All Tutorials",
   "pref_reset_tutorials_desc": "Click to show all quick-start tutorials again",
   "pref_reset_tutorials_btn": "Reset",
   "pref_tutorials_tip": "💡 Tip: Each page's tutorial can be closed individually. Click the button above to show them again.",
-
   "pref_data_backup": "Data Backup",
   "pref_export_data": "Export Data",
   "pref_export_data_desc": "Export all settings, summary history and preferences to a JSON file",
@@ -85,14 +79,12 @@
   "pref_import_data_desc": "Restore settings and data from a JSON file (will overwrite existing config)",
   "pref_import_btn": "Import",
   "pref_backup_tip": "💡 Tip: Regular backups help prevent data loss. Import will overwrite existing config, use with caution.",
-
   "pref_reset_default": "Reset to Default",
   "pref_reset_confirm": "Are you sure you want to reset to default settings?",
   "pref_reset_success": "Settings have been reset to default",
   "pref_tutorials_reset_success": "All tutorials have been reset, switch pages to see them",
   "pref_saved": "Preferences saved",
   "pref_image_too_large": "Image size cannot exceed 2MB",
-
   "settings_init_error": "Settings page loading error",
   "settings_init_error_tips": "Try: 1. Refresh page 2. Clear browser cache 3. Restart SillyTavern",
   "settings_api_config": "API Configuration",
@@ -109,23 +101,19 @@
   "settings_testing": "Testing...",
   "settings_save_config": "Save Config",
   "settings_fetch_models": "Fetch Model List",
-
   "settings_use_tavern_api": "Use Tavern API",
   "settings_use_tavern_api_desc": "Use the API configured in Tavern's main interface, bypasses CORS issues",
   "settings_select_preset": "Select Preset",
-
   "settings_auto_summary": "Auto Summary",
   "settings_auto_summary_enabled": "Enable Auto Summary",
   "settings_summary_interval": "Summary Interval (messages)",
   "settings_auto_bind_worldbook": "Auto-bind summary to World Book",
   "settings_auto_hide_messages": "Auto-hide summarized messages",
   "settings_keep_recent": "Keep recent messages",
-
   "settings_summary_style": "Summary Style",
   "settings_style_concise": "Concise",
   "settings_style_detailed": "Detailed",
   "settings_style_narrative": "Narrative",
-
   "summary_start_floor": "Start Message",
   "summary_end_floor": "End Message",
   "summary_generate": "Generate Summary",
@@ -135,7 +123,6 @@
   "summary_no_history": "No summary history",
   "summary_bind_worldbook": "Bind to World Book",
   "summary_hide_messages": "Hide Summarized Messages",
-
   "tools_anti_cliche": "Anti-Cliché Tool",
   "tools_anti_cliche_desc": "Clean up clichés from character cards/World Books/greetings",
   "tools_npc_gen": "Quick NPC Generator",
@@ -148,20 +135,17 @@
   "tools_relation_analysis_desc": "Analyze relationships between characters",
   "tools_greeting_gen": "Greeting Generator",
   "tools_greeting_gen_desc": "AI-powered character greeting generation",
-
   "tools_input_text": "Input Text",
   "tools_output_text": "Output Result",
   "tools_start_process": "Start Processing",
   "tools_processing": "Processing...",
   "tools_clear": "Clear",
-
   "tools_load_from_char": "Load from Character",
   "tools_load_from_worldbook": "Load from World Book",
   "tools_char_description": "Character Description",
   "tools_char_personality": "Character Personality",
   "tools_char_scenario": "Scenario",
   "tools_char_examples": "Example Dialogues",
-
   "worldbook_select": "Select World Book",
   "worldbook_select_entry": "Select Entry",
   "worldbook_no_entries": "No entries in this World Book",
@@ -172,7 +156,6 @@
   "worldbook_entry_keys": "Keywords",
   "worldbook_entry_enabled": "Enabled",
   "worldbook_entry_constant": "Constant",
-
   "msg_api_test_success": "API connection successful!",
   "msg_api_test_failed": "API connection failed",
   "msg_settings_saved": "Settings saved",
@@ -182,7 +165,6 @@
   "msg_loading_failed": "Loading failed",
   "msg_tavern_helper_unavailable": "TavernHelper is not available",
   "msg_save_failed": "Save failed",
-
   "summary_history_title": "Summary History",
   "summary_records": "records",
   "refresh_data": "Refresh",

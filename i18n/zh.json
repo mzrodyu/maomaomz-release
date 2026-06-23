@@ -16,12 +16,10 @@
   "error": "错误",
   "warning": "警告",
   "info": "提示",
-
   "language": "语言",
   "language_zh": "中文",
   "language_en": "English",
   "language_switch_hint": "切换界面语言",
-
   "tab_summary": "总结",
   "tab_tools": "工具箱",
   "tab_settings": "设置",
@@ -35,16 +33,17 @@
   "tab_tools_template": "工具模板",
   "tab_token_stats": "Token 统计",
   "tab_help": "帮助",
-
   "panel_title": "猫猫的小破烂",
   "panel_warning": "",
-
   "pref_title": "偏好设置",
   "pref_subtitle": "自定义你的使用体验",
   "pref_interface": "界面设置",
   "pref_language_title": "Language / 语言",
   "pref_language_desc": "Switch between Chinese and English interface",
-
+  "pref_color_scheme": "配色方案",
+  "pref_color_scheme_desc": "在深色和浅色界面之间切换",
+  "pref_color_scheme_dark": "深色",
+  "pref_color_scheme_light": "浅色",
   "pref_auto_show_panel": "刷新时自动弹出面板",
   "pref_auto_show_panel_desc": "页面刷新后自动显示猫猫的小破烂面板",
   "pref_show_task_manager": "显示任务中心",
@@ -53,30 +52,25 @@
   "pref_show_minimize_icon_desc": "在页面右上角显示猫猫头快捷图标",
   "pref_sections_expanded": "设置区块默认展开",
   "pref_sections_expanded_desc": "打开设置页面时，各功能区块默认展开还是折叠",
-
   "pref_theme_color": "主题色",
   "pref_gradient_mode": "渐变色模式",
   "pref_gradient_color2": "第二颜色",
   "pref_gradient_angle": "渐变角度",
   "pref_custom_color": "自定义颜色",
-
   "pref_background_image": "背景图片",
   "pref_upload_image": "上传图片",
   "pref_clear_background": "清除背景",
   "pref_opacity": "透明度",
-
   "pref_notifications": "通知设置",
   "pref_show_success_toast": "显示成功通知",
   "pref_show_success_toast_desc": "操作成功时显示提示消息",
   "pref_show_error_toast": "显示错误通知",
   "pref_show_error_toast_desc": "操作失败时显示错误消息",
-
   "pref_tutorials": "教程设置",
   "pref_reset_tutorials": "重新显示所有教程",
   "pref_reset_tutorials_desc": "点击后各页面的快速上手教程将重新显示",
   "pref_reset_tutorials_btn": "重新显示",
   "pref_tutorials_tip": "💡 提示：每个页面顶部的教程可以单独关闭，关闭后不会再显示。如果想重新查看，点击上方按钮即可。",
-
   "pref_data_backup": "数据备份",
   "pref_export_data": "导出数据",
   "pref_export_data_desc": "导出所有设置、总结历史和偏好配置到 JSON 文件",
@@ -85,14 +79,12 @@
   "pref_import_data_desc": "从 JSON 文件恢复设置和数据（会覆盖现有配置）",
   "pref_import_btn": "导入",
   "pref_backup_tip": "💡 提示：定期备份数据可以防止数据丢失。导入时会覆盖现有配置，请谨慎操作。",
-
   "pref_reset_default": "恢复默认",
   "pref_reset_confirm": "确定要恢复默认设置吗？",
   "pref_reset_success": "已恢复默认设置",
   "pref_tutorials_reset_success": "所有教程已重置，切换页面后即可看到",
   "pref_saved": "偏好设置已保存",
   "pref_image_too_large": "图片大小不能超过 2MB",
-
   "settings_init_error": "设置页面加载异常",
   "settings_init_error_tips": "请尝试：1. 刷新页面 2. 清除浏览器缓存 3. 重启 SillyTavern",
   "settings_api_config": "API 配置",
@@ -109,23 +101,19 @@
   "settings_testing": "测试中...",
   "settings_save_config": "保存配置",
   "settings_fetch_models": "拉取模型列表",
-
   "settings_use_tavern_api": "使用酒馆 API",
   "settings_use_tavern_api_desc": "直接使用酒馆主界面配置的 API，完美绕过 CORS 问题",
   "settings_select_preset": "选择预设",
-
   "settings_auto_summary": "自动总结",
   "settings_auto_summary_enabled": "启用自动总结",
   "settings_summary_interval": "总结间隔（楼层数）",
   "settings_auto_bind_worldbook": "总结后自动绑定到世界书",
   "settings_auto_hide_messages": "总结后自动隐藏已总结楼层",
   "settings_keep_recent": "保留最近几条消息",
-
   "settings_summary_style": "总结风格",
   "settings_style_concise": "简洁",
   "settings_style_detailed": "详细",
   "settings_style_narrative": "叙事",
-
   "summary_start_floor": "开始楼层",
   "summary_end_floor": "结束楼层",
   "summary_generate": "生成总结",
@@ -135,7 +123,6 @@
   "summary_no_history": "暂无历史总结",
   "summary_bind_worldbook": "绑定到世界书",
   "summary_hide_messages": "隐藏已总结楼层",
-
   "tools_anti_cliche": "反八股工具",
   "tools_anti_cliche_desc": "角色卡/世界书/开场白八股清理工具",
   "tools_npc_gen": "NPC 快速生成",
@@ -148,20 +135,17 @@
   "tools_relation_analysis_desc": "分析角色之间的关系",
   "tools_greeting_gen": "开场白生成",
   "tools_greeting_gen_desc": "AI 生成角色开场白",
-
   "tools_input_text": "输入文本",
   "tools_output_text": "输出结果",
   "tools_start_process": "开始处理",
   "tools_processing": "处理中...",
   "tools_clear": "清空",
-
   "tools_load_from_char": "从角色卡读取",
   "tools_load_from_worldbook": "从世界书读取",
   "tools_char_description": "角色描述",
   "tools_char_personality": "角色性格",
   "tools_char_scenario": "场景",
   "tools_char_examples": "示例对话",
-
   "worldbook_select": "选择世界书",
   "worldbook_select_entry": "选择条目",
   "worldbook_no_entries": "该世界书没有条目",
@@ -172,7 +156,6 @@
   "worldbook_entry_keys": "关键字",
   "worldbook_entry_enabled": "启用",
   "worldbook_entry_constant": "常驻",
-
   "msg_api_test_success": "API 连接成功！",
   "msg_api_test_failed": "API 连接失败",
   "msg_settings_saved": "设置已保存",
@@ -182,7 +165,6 @@
   "msg_loading_failed": "加载失败",
   "msg_tavern_helper_unavailable": "TavernHelper 不可用",
   "msg_save_failed": "保存失败",
-
   "summary_history_title": "历史总结记录",
   "summary_records": "条记录",
   "refresh_data": "刷新数据",

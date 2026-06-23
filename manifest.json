@@ -5,10 +5,11 @@
   "optional": [],
   "js": "dist/index.js",
   "author": "猫猫 (mzrodyu)",
-  "version": "2.0.231",
+  "version": "2.0.232",
   "homePage": "https://github.com/mzrodyu/maomaomz-release",
   "auto_update": true,
   "changelog": {
+    "2.0.232": "新增 iOS 浅色配色方案，可在界面偏好中切换深色/浅色",
     "2.0.231": "强化 iOS 设置页外观，修复运行时玻璃样式覆盖导致界面仍呈蓝灰网页面板的问题",
     "2.0.230": "修复插件面板 z-index 过高遮挡各类弹窗的问题，并将更新弹窗改回居中显示",
     "2.0.229": "移除顶部商业化提示，并重做为更接近 iOS 设置页的深色分组列表风格",
