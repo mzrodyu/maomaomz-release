@@ -5,10 +5,12 @@
   "optional": [],
   "js": "dist/index.js",
   "author": "猫猫 (mzrodyu)",
-  "version": "2.0.225",
+  "version": "2.0.227",
   "homePage": "https://github.com/mzrodyu/maomaomz-release",
   "auto_update": true,
   "changelog": {
+    "2.0.227": "整体界面切换为 iOS 深色毛玻璃风格，统一面板、标签、按钮、卡片和输入框样式",
+    "2.0.226": "修复绑定世界书选择弹窗被插件面板遮挡的问题",
     "2.0.225": "修复开场白页读取对象型用户人设时 substring 报错导致组件加载失败",
     "2.0.223": "版本更新弹窗改为 iOS 风格底部 Sheet，统一系统蓝与分组列表样式",
     "2.0.217": "增强可视化总结，支持历史结构化编辑、Markdown复制和一键补世界书候选",
