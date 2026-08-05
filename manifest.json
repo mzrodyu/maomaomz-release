@@ -3,9 +3,9 @@
   "loading_order": 150,
   "requires": [],
   "optional": [],
-  "js": "dist/index.js?v=202608051744",
+  "js": "dist/index.js?v=202608051746",
   "author": "猫猫 (mzrodyu)",
-  "version": "2.0.384",
+  "version": "2.0.385",
   "homePage": "https://github.com/mzrodyu/maomaomz-release",
   "auto_update": true,
   "changelog": {
