@@ -103,6 +103,7 @@
   "settings_fetch_models": "Fetch Model List",
   "settings_use_tavern_api": "Use Tavern API",
   "settings_use_tavern_api_desc": "Use the API configured in Tavern's main interface, bypasses CORS issues",
+  "settings_streaming_enabled": "Streaming Output",
   "settings_select_preset": "Select Preset",
   "settings_auto_summary": "Auto Summary",
   "settings_auto_summary_enabled": "Enable Auto Summary",

@@ -116,6 +116,7 @@
   "settings_fetch_models": "拉取模型列表",
   "settings_use_tavern_api": "使用酒馆 API",
   "settings_use_tavern_api_desc": "直接使用酒馆主界面配置的 API，完美绕过 CORS 问题",
+  "settings_streaming_enabled": "流式输出",
   "settings_select_preset": "选择预设",
   "settings_auto_summary": "自动总结",
   "settings_auto_summary_enabled": "启用自动总结",
